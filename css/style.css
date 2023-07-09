@@ -76,6 +76,11 @@ header{
     margin-top: 5px;
     margin-bottom: 20px
 }
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* About section */
 .about{
     padding: 130px;
@@ -98,4 +103,26 @@ font-size: 18px;
 
 font-weight: 400;
 line-height: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    
+}
+.info-title{
+    font-size: 12px;
+    color: #757575;
+}
+.info-des{
+    font-weight: bold;
+    color: #474747;
+}
+.what-title{
+   text-align: center;
+}
+.what-des{
+    padding: 30px 150px;
 }
