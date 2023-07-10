@@ -55,8 +55,9 @@ header {
     align-items: center;
     justify-content: space-between;
     background-repeat: no-repeat;
-    background-position: right bottom;
-    background-image: url('../images/header_bg.png')
+    
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-position: right bottom,top left;
 }
 
 .banner-pha {
